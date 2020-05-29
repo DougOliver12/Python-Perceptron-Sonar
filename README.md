@@ -3,7 +3,7 @@ O algoritmo Perceptron é o tipo mais simples de rede neural artificial.  É um 
 Descrição
 Esta seção fornece uma breve introdução ao algoritmo Perceptron e ao conjunto de dados do Sonar ao qual o aplicaremos posteriormente.
 
-Algoritmo de Perceptron
+# Algoritmo de Perceptron
 
 O Perceptron é inspirado no processamento de informações de uma única célula neural chamada neurônio.
 Um neurônio aceita sinais de entrada através de seus dendritos, que passam o sinal elétrico para o corpo da célula.
@@ -13,7 +13,7 @@ Dessa maneira, o Perceptron é um algoritmo de classificação para problemas co
 Está intimamente relacionado à regressão linear e à regressão logística que fazem previsões de maneira semelhante (por exemplo, uma soma ponderada de entradas).
 Os pesos do algoritmo Perceptron devem ser estimados a partir dos seus dados de treinamento usando a descida estocástica do gradiente.
 
-Descida de gradiente estocástico (stochastic gradient descent)
+# Descida de gradiente estocástico (stochastic gradient descent)
 
 A descida do gradiente é o processo de minimizar uma função seguindo os gradientes da função de custo.
 Isso envolve conhecer a forma do custo e da derivada, para que, a partir de um determinado ponto, você conheça o gradiente e possa se mover nessa direção, por exemplo, descendo em direção ao valor mínimo.
@@ -26,7 +26,7 @@ w = w + learning_rate * (expected - predicted) * x
 
 Onde w está otimizando o peso, learning_rate é uma taxa de aprendizado que você deve configurar (por exemplo, 0,01), (esperado - previsto) é o erro de previsão para o modelo nos dados de treinamento atribuídos ao peso e x é o valor de entrada.
 
-Conjunto de dados do sonar
+# Conjunto de dados do sonar
 
 O conjunto de dados que usaremos neste tutorial é o conjunto de dados do Sonar.
 Este é um conjunto de dados que descreve retornos sonoros retornando de serviços diferentes. As 60 variáveis de entrada são a força dos retornos em diferentes ângulos. É um problema de classificação binária que requer um modelo para diferenciar rochas de cilindros metálicos.
