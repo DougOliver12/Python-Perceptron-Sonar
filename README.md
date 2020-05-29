@@ -1,4 +1,4 @@
-# Python-Perceptron-Sonar
+# Python Perceptron Sonar
 O algoritmo Perceptron é o tipo mais simples de rede neural artificial.  É um modelo de um único neurônio que pode ser usado para problemas de classificação de duas classes e fornece a base para o desenvolvimento posterior de redes muito maiores.
 Descrição
 Esta seção fornece uma breve introdução ao algoritmo Perceptron e ao conjunto de dados do Sonar ao qual o aplicaremos posteriormente.
@@ -32,4 +32,3 @@ O conjunto de dados que usaremos neste tutorial é o conjunto de dados do Sonar.
 Este é um conjunto de dados que descreve retornos sonoros retornando de serviços diferentes. As 60 variáveis de entrada são a força dos retornos em diferentes ângulos. É um problema de classificação binária que requer um modelo para diferenciar rochas de cilindros metálicos.
 É um conjunto de dados bem compreendido. Todas as variáveis são contínuas e geralmente na faixa de 0 a 1. Portanto, não precisamos normalizar os dados de entrada, o que geralmente é uma boa prática com o algoritmo Perceptron. A variável de saída é uma string "M" para mines e "R" para rock, que precisará ser convertida nos números inteiros 1 e 0.
 Ao prever a classe com mais observações no conjunto de dados (M ou minas), o algoritmo de regra zero pode atingir uma precisão de 53%.
-Você pode aprender mais sobre esse conjunto de dados no repositório do UCI Machine Learning . Você pode baixar o conjunto de dados gratuitamente e colocá-lo em seu diretório de trabalho com o nome de arquivo sonar.all-data.csv.
